@@ -273,9 +273,7 @@ export class PostCardsComponent {
           product.reviewsData = data;
           this.calculateAverageRating(product);
         },
-        (error) => {
-          console.error("Error fetching reviews data:", error);
-        }
+        (error) => {}
       );
     }
   }

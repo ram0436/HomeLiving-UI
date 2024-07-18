@@ -76,7 +76,6 @@
     <mat-slider
       [min]="sliderMin"
       [max]="sliderMaxValue"
-      [(ngModel)]="sliderValue"
       (input)="onSliderChange($event)"
     >
       <input matSliderStartThumb [(ngModel)]="minValue" />
