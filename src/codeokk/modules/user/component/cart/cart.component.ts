@@ -295,7 +295,6 @@ export class CartComponent {
         productSizeDetails,
         quantity: 1,
       });
-      console.log(this.cartProducts);
     });
   }
 
@@ -319,9 +318,7 @@ export class CartComponent {
 
           // this.updateTotals();
         },
-        (error) => {
-          console.error("Error removing product from cart:", error);
-        }
+        (error) => {}
       );
     });
   }

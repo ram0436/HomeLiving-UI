@@ -116,9 +116,7 @@ export class WishlistComponent {
             this.fetchSizeDetails(productDetails, wishlistItem.id);
           }
         },
-        (dashboardError: any) => {
-          console.error("Error fetching product details", dashboardError);
-        }
+        (dashboardError: any) => {}
       );
   }
 
